@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="了解訂餐管理使用的帳號、機構與訂餐資料、雲端同步、訂閱及資料權利。">
+<title>隱私權政策｜訂餐管理</title>
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7f6f1;color:#263c36;font:17px/1.85 system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif}a{color:#27664e;text-underline-offset:4px}a:hover{color:#173e30}a:focus-visible,summary:focus-visible{outline:3px solid #98632c;outline-offset:5px}.skip{position:absolute;top:-80px;background:white;padding:12px}.skip:focus{top:0}header,main,footer{max-width:960px;margin:auto;padding:24px}header{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid #d7dfd6}.brand{font-weight:750;text-decoration:none;font-size:20px}nav{display:flex;gap:22px;flex-wrap:wrap}nav a{font-size:15px}nav [aria-current]{font-weight:750}main{padding-top:52px;padding-bottom:64px}.eyebrow{font-size:13px;letter-spacing:2px;font-weight:700;color:#596b5f}h1{font-size:clamp(32px,6vw,48px);line-height:1.3;letter-spacing:-1px;margin:12px 0 20px}h2{font-size:24px;line-height:1.5;margin:0 0 16px}h3{font-size:18px;margin:0 0 8px}p{margin:0 0 16px}.intro{max-width:680px;font-size:19px;color:#526258}.meta,footer{font-size:14px;color:#59675e}.hero{padding-bottom:36px}.card{background:#fff;border:1px solid #dde3da;border-radius:20px;padding:30px;margin:22px 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.grid article{padding:22px;border:1px solid #dde3da;border-radius:16px;background:#eef2e9}.grid p{font-size:15px;margin:0}.number{display:block;color:#5c705f;font-size:13px;letter-spacing:2px;margin-bottom:14px}.notice{border-left:4px solid #98632c;background:#fff6e7;padding:18px 22px;border-radius:0 12px 12px 0}.notice p:last-child,.card p:last-child{margin-bottom:0}details{border-top:1px solid #dde3da;padding:19px 0}details:last-child{padding-bottom:0}summary{cursor:pointer;font-weight:650;padding-right:10px}details p{margin:14px 0 0;color:#526258}ul,ol{padding-left:24px}li{margin:8px 0}.contact{overflow-wrap:anywhere}.toc{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:15px}footer{border-top:1px solid #d7dfd6;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}section[id]{scroll-margin-top:24px}@media(max-width:620px){header{align-items:flex-start;flex-direction:column;gap:8px}main{padding-top:32px}.grid{grid-template-columns:1fr}.card{padding:23px}header,main,footer{padding-left:20px;padding-right:20px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{body{background:white;color:black}header,.toc,.skip{display:none}.card{break-inside:avoid;border-radius:0}main{padding:0}details{display:block}}
+[hidden]{display:none!important}.language-switch{max-width:960px;margin:0 auto;padding:16px 24px 0;display:flex;justify-content:flex-end;gap:8px}.language-switch button{font:inherit;font-size:15px;min-height:44px;padding:7px 18px;border:1px solid #27664e;border-radius:24px;background:#fff;color:#27664e;cursor:pointer}.language-switch button[aria-pressed="true"]{background:#27664e;color:#fff;font-weight:700}.language-switch button:focus-visible{outline:3px solid #98632c;outline-offset:4px}header{flex-wrap:wrap}@media print{.language-switch{display:none}}
+</style>
+</head>
+<body>
+<div class="language-switch" id="language-switch" role="group" aria-label="語言 / Language" hidden>
+<button type="button" data-language="zh-Hant" lang="zh-Hant" aria-pressed="true">中文</button>
+<button type="button" data-language="en" lang="en" aria-pressed="false">English</button>
+</div>
+<div id="page-content">
+<a class="skip" href="#main">跳至主要內容</a>
+<header><a class="brand" href="support_meals.html">訂餐管理<span aria-hidden="true"> · </span>MealOrders</a><nav aria-label="主要導覽"><a href="support_meals.html">支援中心</a><a href="privacy_meals.html" aria-current="page">隱私權政策</a></nav></header>
+<main id="main">
+<div class="hero"><p class="eyebrow">MEALORDERS / PRIVACY</p><h1>隱私權政策</h1><p class="intro">本政策說明「訂餐管理」（MealOrders）在提供帳號登入、機構協作、訂餐管理及訂閱服務時，如何處理相關資料。</p><p class="meta">最後更新：2026 年 10 月 23 日</p><p class="contact">服務營運者：【待填：正式開發者或營運者名稱】</p></div>
+<nav class="toc" aria-label="政策章節"><a href="#data">資料類型</a><a href="#purpose">使用目的</a><a href="#sharing">資料分享</a><a href="#retention">保存與安全</a><a href="#rights">你的權利</a><a href="#contact">聯絡我們</a></nav>
+<section class="card" id="data"><h2>一、處理哪些資料</h2><ul><li><strong>帳號與授權資料：</strong>電子郵件、使用者識別碼、電子郵件驗證狀態、所屬機構及人員權限。帳號驗證透過 Firebase Authentication 處理，包括登入所需的憑證。</li><li><strong>機構設定：</strong>機構名稱、機構代碼、人員授權清單、餐別、價格與自訂身分項目。</li><li><strong>訂餐資料：</strong>使用者輸入的姓名、床號、住院或生產日期、訂餐者、登記人員、身分、飲食禁忌、特殊註記、內部備註、供餐時段、餐次、訂單狀態、折扣及訂金等。這些內容可能涉及健康或其他敏感資訊，請僅輸入提供餐務服務所需且有權處理的資料。</li><li><strong>既有資料：</strong>目前表單不提供電話或照片附件輸入，但舊版資料中可能仍保留相關內容。</li><li><strong>訂閱資訊：</strong>透過 Apple StoreKit 取得商品、交易驗證及訂閱權限狀態，用來確認可使用的功能。本 App 不要求輸入信用卡卡號。</li><li><strong>客服資料：</strong>你主動提供的聯絡信箱、問題描述及附件。</li><li><strong>服務技術資訊：</strong>雲端服務在驗證、連線及防止濫用過程中可能處理 IP 位址及必要的服務紀錄；處理方式依所使用的服務與設定而定。</li></ul></section>
+<section class="card" id="purpose"><h2>二、資料的使用目的</h2><p>資料用於驗證帳號與機構權限、建立及管理訂單、安排供餐、試算餐費、同步不同裝置的資料、產生 PDF／CSV 與列印文件、確認訂閱權限，以及回覆支援或隱私申請。</p><p>機構應確認其蒐集及輸入資料的適當依據，並向相關人員說明用途。若不提供登入或機構授權所需資料，將無法使用相應服務；訂餐欄位是否需要填寫則依功能與機構作業需求而定。</p></section>
+<section class="card" id="sharing"><h2>三、資料儲存、分享與第三方服務</h2><ul><li><strong>機構內協作：</strong>訂單與設定會同步至目前機構，並依權限提供給該機構已授權的人員。機構管理者負責管理人員授權。</li><li><strong>Google Firebase：</strong>使用 Firebase Authentication 提供帳號驗證，並使用 Cloud Firestore 保存及同步資料。相關處理可能涉及境外伺服器；實際位置依服務與專案設定而定。請參閱 <a href="https://firebase.google.com/support/privacy">Firebase 隱私與安全說明</a>。</li><li><strong>Apple：</strong>App 內購買及訂閱由 Apple 提供付款與交易服務。請參閱 <a href="https://www.apple.com/legal/privacy/zh-tw/">Apple 隱私權政策</a>。</li><li><strong>使用者主動匯出：</strong>當你分享 PDF、CSV 或列印文件，內容將交付給你選擇的應用程式、收件者或印表機。這些副本不會因 App 內停用授權而自動收回。</li></ul></section>
+<section class="card" id="retention"><h2>四、保存期間與資料安全</h2><p>App 使用雲端資料庫，並在裝置保存離線快取與設定。登入與機構權限用於限制資料存取；離線裝置無法即時得知權限撤銷，需恢復連線後確認。</p><p><strong>保存期間：</strong>【待填：帳號、訂餐資料、客服紀錄與備份的實際保存期限或判定標準，以及刪除申請處理期限】。</p><p>資料保存與刪除應依服務需要、機構作業及適用要求處理。移除 App 只會影響裝置上的 App 資料，不會自動刪除雲端帳號或機構紀錄。請妥善保管裝置及登入憑證；任何傳輸或儲存方式都無法保證零風險。</p></section>
+<section class="card" id="rights"><h2>五、資料查詢、更正與刪除</h2><p>如需查詢、取得副本、更正、停止使用或刪除個人資料，請先聯絡掌管該筆訂餐紀錄的機構；涉及 App 帳號或服務端處理的事項，可透過本頁聯絡信箱提出申請。</p><p>請提供可供確認身分的登入信箱及申請範圍，避免提供不必要的敏感資料。處理前可能需要確認身分、機構權限及可刪除的資料範圍。帳號與機構共用訂單屬不同資料，刪除帳號不應被理解為所有機構紀錄同步消失。</p><p>目前 App 未提供自行永久刪除帳號的操作入口。停餐或結束訂單並非永久刪除資料；已匯出或交付他人的副本需另行向持有人提出處理申請。</p><p>資料或帳號刪除申請不會取消 Apple 訂閱。若要停止續訂，請依 <a href="https://support.apple.com/zh-tw/118428">Apple 訂閱管理說明</a>另行操作。</p></section>
+<section class="card"><h2>六、本網站與未成年人資料</h2><p>這兩個說明網頁本身沒有登入、表單、分析程式或廣告追蹤碼，也不主動設定 Cookie。發布網站所使用的主機服務仍可能保留必要的連線存取紀錄。</p><p>本 App 供機構工作人員進行餐務管理，並非以兒童為使用對象。如訂單內容涉及未成年人，機構應確認具備適當授權並僅輸入必要資訊。</p></section>
+<section class="card"><h2>七、政策更新</h2><p>功能或資料處理方式調整時，本政策將配合更新並標示更新日期。請定期查看本頁，以了解最新說明。</p></section>
+<section class="card contact" id="contact"><h2>八、聯絡我們</h2><p>營運者：【待填：正式開發者或營運者名稱】<br>隱私聯絡信箱：【待填：公開隱私聯絡 Email】</p><p>來信主旨可註明「訂餐管理－隱私權申請」，並說明希望處理的事項。一般操作問題請參閱<a href="support_meals.html">支援中心</a>。</p></section>
+</main>
+<footer><span>訂餐管理 · 讓餐務安排更有條理</span><a href="support_meals.html">聯絡與支援</a></footer>
+</div>
+<template id="english-content" data-title="Privacy Policy | MealOrders" data-description="How MealOrders handles accounts, meal orders, cloud sync, subscriptions, and data rights.">
+<a class="skip" href="#main">Skip to main content</a>
+<header><a class="brand" href="support_meals.html">MealOrders</a><nav aria-label="Main navigation"><a href="support_meals.html">Support Center</a><a href="privacy_meals.html" aria-current="page">Privacy Policy</a></nav></header>
+<main id="main">
+<div class="hero"><p class="eyebrow">MEALORDERS / PRIVACY</p><h1>Privacy Policy</h1><p class="intro">This policy explains how MealOrders handles information when providing account sign-in, organization collaboration, meal order management, and subscription services.</p><p class="meta">Last updated: October 23, 2026</p><p class="contact">Service operator: [To be completed: official developer or operator name]</p></div>
+<nav class="toc" aria-label="Policy sections"><a href="#data">Data categories</a><a href="#purpose">Purposes</a><a href="#sharing">Data sharing</a><a href="#retention">Retention and security</a><a href="#rights">Your rights</a><a href="#contact">Contact us</a></nav>
+<section class="card" id="data"><h2>1. Information we process</h2><ul><li><strong>Account and access information: </strong>Email address, user identifier, email verification status, organization membership, and staff permissions. Firebase Authentication handles account authentication, including the credentials required to sign in.</li><li><strong>Organization settings: </strong>Organization name and code, staff authorization lists, meal types, prices, and custom identity categories.</li><li><strong>Meal order information: </strong>User-entered names, bed numbers, admission or childbirth dates, the person placing the order, staff recording it, identity categories, dietary restrictions, special notes, internal notes, service periods, meal slots, order status, discounts, and deposits. This information may include health or other sensitive details. Enter only information needed for meal service that you are authorized to process.</li><li><strong>Legacy information: </strong>Current forms do not accept phone numbers or photo attachments, but these may remain in older records.</li><li><strong>Subscription information: </strong>Apple StoreKit provides product information, transaction verification, and subscription entitlement status to determine which features are available. The app does not ask you to enter a credit card number.</li><li><strong>Support information: </strong>Contact email, issue descriptions, and attachments you choose to provide.</li><li><strong>Technical service information: </strong>Cloud services may process IP addresses and necessary service logs for authentication, connectivity, and abuse prevention. Processing depends on the services and settings used.</li></ul></section>
+<section class="card" id="purpose"><h2>2. How information is used</h2><p>Information is used to verify accounts and organization access, create and manage orders, schedule meals, estimate charges, sync data across devices, generate PDF/CSV exports and printed documents, verify subscription access, and respond to support or privacy requests.</p><p>Organizations should establish an appropriate basis for collecting and entering data and explain its purposes to the people concerned. Without the information needed for sign-in or organization authorization, the corresponding services cannot be used. Whether particular order fields are required depends on the feature and the organization's operations.</p></section>
+<section class="card" id="sharing"><h2>3. Storage, sharing, and third-party services</h2><ul><li><strong>Organization collaboration: </strong>Orders and settings sync to the current organization and are available to its authorized staff according to their permissions. Organization administrators manage staff access.</li><li><strong>Google Firebase: </strong>Firebase Authentication provides account authentication, and Cloud Firestore stores and syncs data. Processing may involve servers outside your country or region; actual locations depend on the service and project settings. See <a href="https://firebase.google.com/support/privacy">Firebase's privacy and security information</a>.</li><li><strong>Apple: </strong>Apple provides payment and transaction services for in-app purchases and subscriptions. See <a href="https://www.apple.com/legal/privacy/en-ww/">Apple's Privacy Policy</a>.</li><li><strong>Exports you initiate: </strong>When you share PDFs, CSV files, or printed documents, their contents are sent to the apps, recipients, or printers you select. Revoking access in the app does not automatically recall those copies.</li></ul></section>
+<section class="card" id="retention"><h2>4. Retention and security</h2><p>The app uses a cloud database and stores offline caches and settings on the device. Sign-in and organization permissions restrict access. An offline device cannot immediately learn that access has been revoked and must reconnect to confirm access.</p><p><strong>Retention period: </strong>[To be completed: actual retention periods or criteria for accounts, order data, support records, and backups, plus the timeframe for processing deletion requests].</p><p>Retention and deletion should reflect service needs, organization operations, and applicable requirements. Uninstalling the app affects only its data on the device; it does not automatically delete cloud accounts or organization records. Protect your device and sign-in credentials. No transmission or storage method can guarantee zero risk.</p></section>
+<section class="card" id="rights"><h2>5. Access, correction, and deletion</h2><p>To request access, a copy, correction, cessation of use, or deletion of personal information, first contact the organization responsible for the order record. For app account or service-side matters, use the contact email on this page.</p><p>Provide your sign-in email and the scope of your request to help verify your identity, and avoid unnecessary sensitive information. Processing may require verification of identity, organization permissions, and the scope of data eligible for deletion. Accounts and shared organization orders are separate records; deleting an account should not be understood to erase every organization record.</p><p>The app currently has no self-service option for permanently deleting an account. Stopping meal service or closing an order does not permanently delete data. For copies already exported or shared, make a separate request to the people or organizations holding them.</p><p>Requesting data or account deletion does not cancel an Apple subscription. To stop renewal, follow <a href="https://support.apple.com/en-us/118428">Apple's subscription management instructions</a> separately.</p></section>
+<section class="card"><h2>6. This website and information about minors</h2><p>These two information pages have no sign-in, forms, analytics, or advertising trackers, and do not actively set cookies. The hosting provider may still keep necessary connection and access logs.</p><p>The app is intended for staff managing meal services within organizations, rather than for children. If orders contain information about minors, the organization should ensure appropriate authorization and enter only necessary information.</p></section>
+<section class="card"><h2>7. Policy updates</h2><p>This policy and its update date will be revised when features or data handling practices change. Please check this page periodically for the latest information.</p></section>
+<section class="card contact" id="contact"><h2>8. Contact us</h2><p>Service operator: [To be completed: official developer or operator name]<br>Privacy email: [To be completed: public privacy contact email]</p><p>Use the subject “MealOrders — Privacy Request” and describe what you would like us to address. For general usage questions, visit the <a href="support_meals.html">Support Center</a>.</p></section>
+</main>
+<footer><span>MealOrders · Bring clarity to meal coordination</span><a href="support_meals.html">Contact and support</a></footer>
+</template>
+<script>
+(() => {
+    const content = document.getElementById('page-content');
+    const chinese = content.innerHTML;
+    const english = document.getElementById('english-content').innerHTML;
+    const chineseTitle = document.title;
+    const chineseDescription = document.querySelector('meta[name="description"]').content;
+    const englishTitle = document.getElementById('english-content').dataset.title;
+    const englishDescription = document.getElementById('english-content').dataset.description;
+    const buttons = document.querySelectorAll('[data-language]');
+
+    function render(language) {
+        const isEnglish = language === 'en';
+        document.documentElement.lang = isEnglish ? 'en' : 'zh-Hant';
+        document.title = isEnglish ? englishTitle : chineseTitle;
+        document.querySelector('meta[name="description"]').content = isEnglish ? englishDescription : chineseDescription;
+        content.innerHTML = isEnglish ? english : chinese;
+        buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.language === language)));
+        // Carry the selected language between pages without cookies or browser storage.
+        content.querySelectorAll('a[href]').forEach(link => {
+            const href = link.getAttribute('href');
+            if (/^(support|privacy)_meals\.html(?:#.*)?$/.test(href)) {
+                const [path, fragment] = href.split('#');
+                link.setAttribute('href', path + '?lang=' + language + (fragment ? '#' + fragment : ''));
+            }
+        });
+    }
+
+    buttons.forEach(button => button.addEventListener('click', () => {
+        const language = button.dataset.language;
+        render(language);
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', language);
+        // Some browsers restrict History API changes for directly opened local files.
+        try { window.history.replaceState(null, '', url); } catch (_) {}
+    }));
+    window.addEventListener('popstate', () => render(new URLSearchParams(window.location.search).get('lang') === 'en' ? 'en' : 'zh-Hant'));
+    document.getElementById('language-switch').hidden = false;
+    render(new URLSearchParams(window.location.search).get('lang') === 'en' ? 'en' : 'zh-Hant');
+})();
+</script>
+
+</body>
+</html>
